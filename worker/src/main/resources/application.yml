@@ -1,0 +1,12 @@
+server:
+  port: 5000
+
+spring:
+  application:
+    name: worker
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
